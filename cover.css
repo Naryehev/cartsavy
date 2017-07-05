@@ -27,13 +27,14 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #34314c;
+  background-color: #1D3557;
 
 }
 body {
-  color: #fff;
+  color: white;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-color:white;
 }
 .scrollbar
 {
@@ -65,10 +66,14 @@ body {
 }
 .jumbotron{
   /*background-image: url("food.jpg");*/
- background: rgba(51,51,51, 0.7);
+ background: inherit;
   background-size: cover;
   width: 100%;
   opacity:50%;
+}
+#info{
+  background-color:#33658A;
+  color:white;
 }
 body::-webkit-scrollbar {
     width: 0.5em;
@@ -90,9 +95,11 @@ body::-webkit-scrollbar-thumb {
 
 /* Padding for spacing */
 .inner {
-  padding: 20px;
+  padding-bottom: 20px;
 }
-
+hr{
+  width:90%;
+}
 
 /*
  * Header
