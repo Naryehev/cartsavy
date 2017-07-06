@@ -27,7 +27,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #1D3557;
+  background-color: #3886C1;
+  zoom:1.1;
 
 }
 body {
@@ -36,6 +37,7 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   text-color:white;
 }
+
 .scrollbar
 {
 	margin-left: 30px;
@@ -71,9 +73,13 @@ body {
   width: 100%;
   opacity:50%;
 }
+.jumbotron h1{
+  font-size: 100px;
+}
 #info{
   background-color:#33658A;
   color:white;
+  padding-bottom: 150px;
 }
 body::-webkit-scrollbar {
     width: 0.5em;
@@ -92,6 +98,24 @@ body::-webkit-scrollbar-thumb {
 #foodpic{
   height:1750px;
 }
+#signupbut{
+  background-color:#D06D6D;
+  color:black;
+}
+#ios{
+  font-family:'helvetica';
+
+}
+#playimg{
+  border:none;
+  padding:0;
+
+
+}
+#android{
+  width:150px;
+
+}
 
 /* Padding for spacing */
 .inner {
@@ -99,6 +123,9 @@ body::-webkit-scrollbar-thumb {
 }
 hr{
   width:90%;
+}
+#svg{
+  margin:20px;
 }
 
 /*
