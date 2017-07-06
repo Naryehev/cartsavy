@@ -26,7 +26,7 @@ a:hover {
 
 html,
 body {
-  height: 100%;
+  width:100%;
   background-color: #3886C1;
   zoom:1.1;
 
@@ -70,10 +70,11 @@ body {
 
  background: inherit;
   background-size: cover;
-  width: 100%;
+  width: 90%;
   opacity:50%;
   padding-bottom: 15px;
   padding-top: 30px;
+  Margin-left:20px;
 }
 .jumbotron h1{
   font-size: 100px;
@@ -85,6 +86,7 @@ body {
 }
 body::-webkit-scrollbar {
     width: 0.5em;
+    color:white;
 }
 
 body::-webkit-scrollbar-track {
@@ -120,7 +122,13 @@ body::-webkit-scrollbar-thumb {
 #android{
   width:150px;
 
-
+}
+#logo{
+  display:inline;
+  height: 35px;
+  width: 35px;
+  padding-top:15px;
+  float:left;
 }
 
 /* Padding for spacing */
@@ -138,6 +146,32 @@ hr{
 .col-md-4{
   padding-bottom:30px;
 }
+.navbar-default{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+  text-shadow:none;
+  color:white;
+}
+.navbar-brand{
+  width:100px;
+  padding-right:0px;
+}
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+.navbar-default .navbar-brand{
+  color:white;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  border-color:#ddd;
+  background-color:#ddd;
+}
+.navbar-default .navbar-toggle .icon-bar{
+
+}
+
 
 /*
  * Header
@@ -174,10 +208,6 @@ hr{
   color: #fff;
   border-bottom-color: #fff;
 }
-#logo{
-
-}
-
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
