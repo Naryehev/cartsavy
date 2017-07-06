@@ -67,11 +67,13 @@ body {
   width:100%;
 }
 .jumbotron{
-  /*background-image: url("food.jpg");*/
+
  background: inherit;
   background-size: cover;
   width: 100%;
   opacity:50%;
+  padding-bottom: 15px;
+  padding-top: 30px;
 }
 .jumbotron h1{
   font-size: 100px;
@@ -109,11 +111,15 @@ body::-webkit-scrollbar-thumb {
 #playimg{
   border:none;
   padding:0;
-
-
 }
+#descy{
+
+  margin-top:50px;
+}
+
 #android{
   width:150px;
+
 
 }
 
@@ -123,9 +129,14 @@ body::-webkit-scrollbar-thumb {
 }
 hr{
   width:90%;
+  margin:30px;
+
 }
 #svg{
   margin:20px;
+}
+.col-md-4{
+  padding-bottom:30px;
 }
 
 /*
