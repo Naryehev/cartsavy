@@ -67,8 +67,7 @@ body {
   width:100%;
 }
 .jumbotron{
-
- background: inherit;
+  background: inherit;
   background-size: cover;
   width: 90%;
   opacity:50%;
