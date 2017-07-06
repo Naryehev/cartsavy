@@ -1,76 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="Daniel Naryshev">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<head>
+  <title>Cart Savy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Roboto+Slab|Nunito" rel="stylesheet">
 
-    <link href="css/signup.css" rel="stylesheet" type="text/css">
-   <link href="css/cover.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="cover.css" />
+  <script src="js/javascript.js">
+  </script>
 
-  </head>
+</head>
 
-  <body>
-    <div class="cover-container">
-      <div class="masthead clearfix">
-        <div class="inner">
-          <h3 class="masthead-brand">LOGO</h3>
-          <nav>
-            <ul class="nav masthead-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Cart <span class="glyphicon glyphicon-shopping-cart"></span></a></li>
-            </ul>
-          </nav>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#" id="navlogotext"> Cart Savy </a>
+        <img src="src/logo.svg" alt="Cart Savy" height="35px" id="logo" />
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Meal Planning</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Our Team</a></a>
+          </li>
+          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container center_div">
+    <div class="row">
+      <div class="Absolute-Center is-Responsive">
+
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+          <form action="" id="loginForm" class="center_div">
+            <div id="logo-container">
+              <img src="src/avatar.svg" alt="avatar" id="avatar" />
+            </div>
+            <div class="form-group input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input class="form-control" type="email" name='email' placeholder="Email" />
+            </div>
+            <div class="form-group input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+              <input class="form-control" type="phoneNumber" name='phoneNumber' placeholder="Phone Number" />
+            </div>
+            <div class="form-group input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              <input class="form-control" type="password" name='password' placeholder="Password" />
+            </div>
+
+
+
+            <div class="checkbox">
+              <label>
+              <input type="checkbox"> I agree to the <a href="#">Terms and Conditions</a>
+            </label>
+            </div>
+            <div class="form-group">
+              <button type="button" class="btn btn-def btn-block">Sign Up</button>
+            </div>
+            <div class="form-group text-center">
+              <a href="#">Forgot Password</a>&nbsp;|&nbsp;<a href="#">Support</a>&nbsp;|&nbsp;<a href="#">Sign Up</a>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-    <div class="container">
-  <div class="row">
-    <div class="Absolute-Center is-Responsive">
-      <div id="logo-container"></div>
-      <div class="col-sm-12 col-md-10 col-md-offset-1">
-        <form action="" id="loginForm">
-          <div class="form-group input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input class="form-control" type="text" name='username' placeholder="Username"/>
-          </div>
-          <div class="form-group input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input class="form-control" type="password" name='password' placeholder="Password"/>
-          </div>
-          <div class="form-group input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input class="form-control" type="email" name='email' placeholder="Email"/>
-          </div>
-          <div class="form-group input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-            <input class="form-control" type="phoneNumber" name='phoneNumber' placeholder="Phone Number"/>
-          </div>
-
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> I agree to the <a href="#">Terms and Conditions</a>
-            </label>
-          </div>
-          <div class="form-group">
-            <button type="button" class="btn btn-def btn-block">Sign Up</button>
-          </div>
-          <div class="form-group text-center">
-            <a href="#">Forgot Password</a>&nbsp;|&nbsp;<a href="#">Support</a>&nbsp;|&nbsp;<a href="#">Sign Up</a>
-          </div>
-        </form>
-      </div>
-    </div>
   </div>
-</div>
-  </body>
+</body>
 
 </html>

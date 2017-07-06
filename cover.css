@@ -144,6 +144,11 @@ hr{
   margin:20px;
   color:black;
 }
+#avatar{
+  height:170px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
 .col-md-4{
   padding-bottom:30px;
 }
@@ -172,7 +177,14 @@ hr{
 .navbar-default .navbar-toggle .icon-bar{
 
 }
+#loginForm{
+  width:400px;
 
+}
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
 
 /*
  * Header
@@ -233,6 +245,7 @@ hr{
 .input-group{
   width:77%;
   margin: 0 auto;
+  margin-bottom:10px;
 }
 
 
