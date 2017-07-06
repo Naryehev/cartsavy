@@ -177,13 +177,20 @@ hr{
 .navbar-default .navbar-toggle .icon-bar{
 
 }
-#loginForm{
+form{
   width:400px;
 
 }
+#signupForm{
+  width:400px;
+}
+#loginform{
+  width:400px;
+  margin-top:150px;
+}
 .center_div{
     margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
+    width:50%; /* value of your choice which suits your alignment */
 }
 
 /*
@@ -300,68 +307,3 @@ a, a:focus, a:hover{
     width: 100%;
   }
 }
-
-/* testing */
-
-
-.slide1, .slide2, .slide3 {
-	min-height: 560px; /* Must have a height or min-height set due to use of background images */
-	background-size: cover;
-	background-position: center center;
-}
-.slide1 {
-	background-image: url(food.jpg);
-}
-.slide2 {
-	background-image: url(food2.jpeg);
-}
-.slide3 {
-	background-image: url(food4.jpg);
-}
-/* Carousel Fade Effect */
-.carousel.carousel-fade .item {
-	-webkit-transition: opacity 1s linear;
-	-moz-transition: opacity 1s linear;
-	-ms-transition: opacity 1s linear;
-	-o-transition: opacity 1s linear;
-	transition: opacity 1s linear;
-	opacity: .5;
-}
-.carousel.carousel-fade .active.item {
-	opacity: 1;
-}
-.carousel.carousel-fade .active.left,
-.carousel.carousel-fade .active.right {
-	left: 0;
-	z-index: 2;
-	opacity: 0;
-	filter: alpha(opacity=0);
-}
-/* Carousel Overlay */
-.carousel-overlay {
-	position: absolute;
-	bottom: 100px;
-	right: 0;
-	left: 0;
-}
-
-
-.carousel-overlay {
-	color: white;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.75);
-}
-.carousel-overlay h1 {
-    font-size: 3.5em;
-}
-.carousel-overlay .btn {
-	border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 4px solid #398439;
-    border-radius: 6px;
-}
-.carousel-overlay .btn-lg {
-    font-size: 1.75em;
-    padding: 10px 30px;
-}
-\
