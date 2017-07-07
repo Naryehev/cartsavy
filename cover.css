@@ -121,6 +121,9 @@ body::-webkit-scrollbar-thumb {
 
 #android{
   width:150px;
+}
+#success_message{
+  display: none;
 
 }
 #logo{
