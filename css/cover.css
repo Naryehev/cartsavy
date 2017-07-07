@@ -142,6 +142,11 @@ body::-webkit-scrollbar-thumb {
   padding-top:15px;
   float:left;
 }
+#logosignup{
+  margin-bottom: 20px;
+  height: 35px;
+  width: 35px
+}
 
 /* Padding for spacing */
 .inner {
