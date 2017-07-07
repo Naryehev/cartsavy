@@ -28,7 +28,7 @@ html,
 body {
   width:100%;
   background-color: #fbf5f3;
-  zoom:1.1;
+
   font-family:Nunito;
 
 }
@@ -106,16 +106,14 @@ body::-webkit-scrollbar-thumb {
   background-color:#D06D6D;
   color:black;
 }
-#ios{
-  font-family:'helvetica';
-
+#formholder{
+  margin-top: 110px;
 }
 #playimg{
   border:none;
   padding:0;
 }
 #descy{
-
   margin-top:50px;
 }
 
