@@ -28,14 +28,13 @@ html,
 body {
   width:100%;
   background-color: #fbf5f3;
-
   font-family:Nunito;
 
 }
 body {
   color: black;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
 
 }
 div#login-container{
