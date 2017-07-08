@@ -28,18 +28,17 @@ html,
 body {
   width:100%;
   background-color: #fbf5f3;
+  zoom:1.1;
   font-family:Nunito;
 
 }
 body {
   color: black;
   text-align: center;
-
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 
 }
-div#login-container{
-  margin-top:200px;
-}
+
 .scrollbar{
 	margin-left: 30px;
 	float: left;
@@ -80,19 +79,6 @@ div#login-container{
 .jumbotron h1{
   font-size: 100px;
 }
-.Absolute-Center {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
-
-.Absolute-Center.is-Responsive {
-  width: 70%;
-  height: 70%;
-  min-width: 350px;
-  max-width: 750px;
-  padding: 40px;
-}
 #info{
   background-color:##fbf5f3;
   color:black;
@@ -120,19 +106,24 @@ body::-webkit-scrollbar-thumb {
   background-color:#D06D6D;
   color:black;
 }
-#formholder{
-  margin-top: 110px;
+#ios{
+  font-family:'helvetica';
+
 }
 #playimg{
   border:none;
   padding:0;
 }
 #descy{
+
   margin-top:50px;
 }
 
 #android{
   width:150px;
+}
+#success_message{
+  display: none;
 
 }
 #logo{
@@ -141,11 +132,6 @@ body::-webkit-scrollbar-thumb {
   width: 35px;
   padding-top:15px;
   float:left;
-}
-#logosignup{
-  margin-bottom: 20px;
-  height: 35px;
-  width: 35px
 }
 
 /* Padding for spacing */
@@ -160,6 +146,11 @@ hr{
 #svg{
   margin:20px;
   color:black;
+}
+#avatar{
+  height:170px;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 .col-md-4{
   padding-bottom:30px;
@@ -189,19 +180,22 @@ hr{
 .navbar-default .navbar-toggle .icon-bar{
 
 }
-.nav nav-tabs{
-  width:150px;
-  margin-bottom: 20px;
-  height:35px;
+form{
+  width:400px;
+
 }
-.nav-justified{
-  margin-bottom: 20px;
-      font-size: 18px;
+#signupForm{
+  width:400px;
 }
-.input-xlarge{
-  width:auto;
-  height:auto;
+#loginform{
+  width:400px;
+  margin-top:150px;
 }
+.center_div{
+    margin: 0 auto;
+    width:50%; /* value of your choice which suits your alignment */
+}
+
 /*
  * Header
  */
@@ -259,7 +253,7 @@ hr{
   font-weight: bold;
 }
 .input-group{
-  width:100%;
+  width:77%;
   margin: 0 auto;
   margin-bottom:10px;
 }
