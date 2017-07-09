@@ -148,6 +148,9 @@ body::-webkit-scrollbar-thumb {
   width:200px;
   height:200px;
 }
+#jombo{
+  margin-bottom:35px;
+}
 #playimg {
   border: none;
   padding: 0;
