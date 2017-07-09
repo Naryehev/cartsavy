@@ -189,7 +189,10 @@ hr {
   width: 90%;
   margin: 30px;
 }
-
+.fa{
+  font-size:30px;
+  margin:5px;
+}
 #svg {
   margin: 20px;
   color: black;
