@@ -54,6 +54,22 @@ div#login-container {
   overflow-y: scroll;
   margin-bottom: 25px;
 }
+@font-face{
+font-family: 'Cubano';
+src: url("../fonts/cubano.ttf") format('truetype');
+font-weight: normal;
+font-style: normal
+}
+#navlogotext{
+  font-family:'Cubano';
+  font-size:17px;
+}
+#navlogocart{
+  color:#b5b5b5;
+}
+#navlogosavy{
+  color:#3b8fce;
+}
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
