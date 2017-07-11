@@ -6,7 +6,7 @@
 /* Links */
 
 a, a:focus, a:hover {
-  color: #fff;
+  color: #000;
 }
 
 
@@ -193,8 +193,36 @@ body::-webkit-scrollbar-thumb {
   height: 35px;
   width: 35px
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+\    text-align: center;
+}
+.container card {
+  padding: 0 16px;
+}
+.fa{
+  font-size:30px;
+  margin:5px;
+  color:black;
+}
+#tsm{
+  text-decoration: none;
+  font-size: 22px;
+    color: black;
+}
+.list-group{
+  text-align:left;
+}
+.list-group-item{
+  margin-right: 100px;
+}
+.black{
+  color:black;
+}
+.setingsBody{
 
-
+}
 /* Padding for spacing */
 
 .inner {
@@ -205,10 +233,7 @@ hr {
   width: 90%;
   margin: 30px;
 }
-.fa{
-  font-size:30px;
-  margin:5px;
-}
+
 #svg {
   margin: 20px;
   color: black;
