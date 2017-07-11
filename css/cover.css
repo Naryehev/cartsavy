@@ -98,17 +98,18 @@ font-style: normal
 .jumbotron {
   background: inherit;
   background-size: cover;
-  width: 90%;
+  width: 100%;
   opacity: 50%;
   padding-bottom: 15px;
   padding-top: 30px;
-  Margin-left: 20px;
 }
 
 .jumbotron h1 {
   font-size: 100px;
 }
-
+#jumbocover{
+  width:100%;
+}
 .Absolute-Center {
   margin: auto;
   position: absolute;
@@ -237,6 +238,15 @@ hr {
 #svg {
   margin: 20px;
   color: black;
+}
+#avi-box{
+  border:1px solid #ddd;
+  border-style: solid;
+  width: 150px;
+}
+#avi-pic{
+  width:120px;
+  margin:20px;
 }
 
 .col-md-4 {
