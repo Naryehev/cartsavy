@@ -62,7 +62,7 @@ font-style: normal
 }
 #navlogotext{
   font-family:'Cubano';
-  font-size:17px;
+  font-size:36px;
 }
 #navlogocart{
   color:#b5b5b5;
@@ -106,9 +106,6 @@ font-style: normal
 
 .jumbotron h1 {
   font-size: 100px;
-}
-#jumbocover{
-  width:100%;
 }
 .Absolute-Center {
   margin: auto;
@@ -175,18 +172,31 @@ body::-webkit-scrollbar-thumb {
 
 #descy {
   margin-top: 50px;
+  height:400px;
 }
+#jumbocover{
+  width:100%;
+  opacity:0.3;
+  z-index: -1;
 
+}
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    font-size: 18px;
+}
 #android {
   width: 150px;
 }
 
 #logo {
   display: inline;
-  height: 35px;
-  width: 35px;
-  padding-top: 15px;
+  height: 50px;
+  width: 50px;
   float: left;
+  margin-left: 7px;
 }
 
 #logosignup {
@@ -194,10 +204,21 @@ body::-webkit-scrollbar-thumb {
   height: 35px;
   width: 35px
 }
+.thumbnail{
+  background-color: inherit;
+  border:none;
+}
+.thumbnail .caption {
+    padding-bottom:70px;
+    width: 100%;
+    font-size:19px;
+    margin-top: -240px;
+    
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-\    text-align: center;
+    text-align: center;
 }
 .container card {
   padding: 0 16px;
@@ -263,14 +284,16 @@ hr {
 }
 
 .navbar-brand {
-  width: 100px;
+  width: 200px;
   padding-right: 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: black;
 }
-
+ul.nav.navbar-nav.navbar-right{
+  font-size:18px;
+}
 .navbar-default .navbar-brand {
   color: black;
 }
